@@ -31,18 +31,18 @@ javafx {
     modules = ['javafx.base', 'javafx.graphics', 'javafx.controls']
 }
 
-// dependencies {
-//     /* uncomment for cross-platform jar: */
-//     runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:win"
-//     runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:linux"
-//     runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:mac"
-//     runtimeOnly "org.openjfx:javafx-base:$javafx.version:win"
-//     runtimeOnly "org.openjfx:javafx-base:$javafx.version:linux"
-//     runtimeOnly "org.openjfx:javafx-base:$javafx.version:mac"
-//     runtimeOnly "org.openjfx:javafx-controls:$javafx.version:win"
-//     runtimeOnly "org.openjfx:javafx-controls:$javafx.version:linux"
-//     runtimeOnly "org.openjfx:javafx-controls:$javafx.version:mac"
-// }
+ dependencies {
+     /* uncomment for cross-platform jar: */
+     runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:win"
+     runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:linux"
+     runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:mac"
+     runtimeOnly "org.openjfx:javafx-base:$javafx.version:win"
+     runtimeOnly "org.openjfx:javafx-base:$javafx.version:linux"
+     runtimeOnly "org.openjfx:javafx-base:$javafx.version:mac"
+     runtimeOnly "org.openjfx:javafx-controls:$javafx.version:win"
+     runtimeOnly "org.openjfx:javafx-controls:$javafx.version:linux"
+     runtimeOnly "org.openjfx:javafx-controls:$javafx.version:mac"
+ }
 
 application {
     // Define the main class for the application.
